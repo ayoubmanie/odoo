@@ -6,8 +6,9 @@
 // = Main Navbar
 // ============================================================================
 .o_main_navbar {
-  background-color: $o-brand-odoo;
-  border-bottom: 1px solid $o-navbar-inverse-link-hover-bg;
+  overflow:hidden;
+  background-color: white;
+  border-bottom: 1px solid #00000033;
   display: grid;
   height: $o-navbar-height;
   gap: 0px 0px;
@@ -46,7 +47,7 @@
     user-select: none;
     background: transparent;
 
-    @include o-hover-text-color(rgba($white, .9), $white);
+    @include o-hover-text-color(rgba(black, .9), black);
   }
 
   %-main-navbar-entry-padding {
