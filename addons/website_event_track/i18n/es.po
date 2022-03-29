@@ -4,6 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2021
+# Jonatan Gk, 2022
 # marcescu, 2022
 # 
 msgid ""
@@ -296,6 +297,8 @@ msgid ""
 "Add a description to help your coworkers understand the meaning and purpose "
 "of the stage."
 msgstr ""
+"Añada una descripción para ayudar a sus compañeros de trabajo a entender el "
+"significado y el propósito de esta etapa."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_stage_view_form
@@ -642,7 +645,7 @@ msgstr "Correo electrónico de contacto"
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__contact_phone
 msgid "Contact Phone"
-msgstr ""
+msgstr "Contactar teléfono"
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__contact_email
@@ -2340,7 +2343,7 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_visitor_view_form
 msgid "Track Visitor"
-msgstr ""
+msgstr "Visitante de pista"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.event_track_visitor_action

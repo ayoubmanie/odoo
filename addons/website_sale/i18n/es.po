@@ -6,6 +6,7 @@
 # Sergio Pinilla Ávila <serjudo@gmail.com>, 2021
 # Jose Carmona <jrcarmona@gmail.com>, 2021
 # Martin Trigaux, 2021
+# Jonatan Gk, 2022
 # marcescu, 2022
 # 
 msgid ""
@@ -912,7 +913,7 @@ msgstr "Descripción de categoría"
 #: code:addons/website_sale/models/product_template.py:0
 #, python-format
 msgid "Category:"
-msgstr ""
+msgstr "Categoría:"
 
 #. module: website_sale
 #: code:addons/website_sale/models/website_snippet_filter.py:0
@@ -1880,7 +1881,7 @@ msgstr "No hay resultados para \""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "No results found for '"
-msgstr ""
+msgstr "No se han encontrado resultados para '"
 
 #. module: website_sale
 #. openerp-web
@@ -3380,7 +3381,7 @@ msgstr "Tienda del sitio web"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website_snippet_filter
 msgid "Website Snippet Filter"
-msgstr ""
+msgstr "Filtro de fragmentos del sitio web"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_product__website_url
@@ -3642,7 +3643,7 @@ msgstr "para seguir su pedido."
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "⌙ Background"
-msgstr ""
+msgstr "Antecedentes"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
@@ -3652,7 +3653,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options
 msgid "⌙ Position"
-msgstr ""
+msgstr "Posición"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.snippet_options

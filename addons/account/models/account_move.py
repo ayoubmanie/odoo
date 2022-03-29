@@ -3497,6 +3497,19 @@ class AccountMove(models.Model):
                     del context
                 move.narration = narration or False
 
+    def _notify_get_groups(self, msg_vals=None):
+        """ Give access button to users and portal customer as portal is integrated
+        in account. Customer and portal group have probably no right to see
+        the document so they don't have the access button. """
+        groups = super(AccountMove, self)._notify_get_groups(msg_vals=msg_vals)
+
+        self.ensure_one()
+        if self.move_type != 'entry':
+            for group_name, _group_method, group_data in groups:
+                if group_name == 'portal_customer':
+                    group_data['has_button_access'] = True
+
+        return groups
 
 class AccountMoveLine(models.Model):
     _name = "account.move.line"
@@ -5522,6 +5535,7 @@ class AccountMoveLine(models.Model):
         # Force the values of the move line in the context to avoid issues
         ctx = dict(self.env.context)
         ctx.pop('active_id', None)
+        ctx.pop('default_journal_id', None)
         ctx['active_ids'] = self.ids
         ctx['active_model'] = 'account.move.line'
         action['context'] = ctx
