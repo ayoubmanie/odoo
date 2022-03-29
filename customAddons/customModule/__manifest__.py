@@ -18,6 +18,9 @@
     'assets': {
         'web.assets_backend': [
             # 'customModule/static/src/css/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2',
+            
+            ("before","web/static/src/legacy/scss/primary_variables.scss",'customModule/static/src/css/colors.scss'),
+            ("after","web/static/src/legacy/scss/utils.scss",'customModule/static/src/css/utils.scss'),
             'customModule/static/src/css/custom-odoo-css.scss',
         ],
     }

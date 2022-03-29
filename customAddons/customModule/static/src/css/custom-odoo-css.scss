@@ -25,12 +25,12 @@
 }
 
 
-.novelis-header{
+header{
     padding: 5px 0px;
-    border-bottom: 1px solid #00000033;
+    border-bottom: 1px solid #dee2e6;
     background: white;
 }
-.novelis-navbar{
+.o_main_navbar{
     padding: 0 10px;
 }
 body{
@@ -50,8 +50,8 @@ body{
 
 // overiding
 .o_main_navbar {
-    background-color: unset;
-    border-bottom: none;
+    background-color: unset ;
+    border-bottom: none ;
 }
 .o_main_navbar .dropdown.show > .dropdown-toggle{
     color:black !important
@@ -95,10 +95,12 @@ body{
 
 .o_searchview{
     padding: 8px 16px;
-    border-radius: 0;
+    // border-radius: 0;
     padding-right: 37px;
     background-color: white;
     border: none;
+    box-shadow: 0px 2px 1px -1px #00000000, 0px 1px 1px 0px #00000012, 0px 1px 3px 0px #00000017;
+    border-radius: 2px;
 }
 .o_searchview_input{
     background-color: unset;
@@ -277,8 +279,8 @@ $icons: (
 //card
 .o_kanban_view .o_kanban_record, .o_kanban_view .o_kanban_quick_create{
     border: none;
-    box-shadow: 0px 2px 1px -1px #00000033, 0px 1px 1px 0px #00000024, 0px 1px 3px 0px #0000001f;
-    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px #00000000, 0px 1px 1px 0px #00000012, 0px 1px 3px 0px #00000017;
+    border-radius: 2px;
     overflow: hidden;
 }
 .o_kanban_group{
@@ -352,6 +354,7 @@ $icons: (
 }
 
 .o_MessagingMenu_counter{
+    color: white;
     padding: 2px 5px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -359,6 +362,9 @@ $icons: (
 
 a{
     color:#151790;
+    &:hover{
+        color: #313267;
+    }
 }
 
 
@@ -368,4 +374,41 @@ a{
 
 .o_kanban_muted_record {
     border-radius: 2px;
+}
+
+
+//navbar.scss
+.o_main_navbar {
+    overflow:hidden;
+    background-color: unset;
+
+    %-main-navbar-entry-base {
+        @include o-hover-text-color(rgba(black, .9), black);
+    }
+}
+
+//user_menu.scss
+.o_user_menu {
+    .o_user_avatar {
+      margin: 0px 5px;
+    }
+  }
+
+
+
+.o_field_widget {
+    // Many2one
+    &.o_field_many2one .o_external_button {
+        
+        color: #303167;
+    }
+}
+
+
+.oe_button_box {
+    .oe_stat_button {
+        .o_button_icon {
+            color: #303167 !important;
+        }
+    }
 }

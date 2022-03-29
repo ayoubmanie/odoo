@@ -6,9 +6,8 @@
 // = Main Navbar
 // ============================================================================
 .o_main_navbar {
-  overflow:hidden;
-  background-color: white;
-  border-bottom: 1px solid #00000033;
+  background-color: $o-brand-odoo;
+  border-bottom: 1px solid $o-navbar-inverse-link-hover-bg;
   display: grid;
   height: $o-navbar-height;
   gap: 0px 0px;

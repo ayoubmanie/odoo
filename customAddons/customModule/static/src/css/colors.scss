@@ -1,0 +1,17 @@
+// Colors
+$o-community-color: #ff067e;
+$o-enterprise-primary-color: #ff067e;
+
+
+$o-success: #00A400;
+$o-info: #17a2b8;
+$o-warning: #ffac00;
+$o-danger: #dc004d;
+
+// Fine-tune contextual text colors.
+$o-theme-text-colors: (
+    "success": #00A400,
+    "info": #313268,
+    "warning": #9a6b01,
+    "danger": #dc004d,
+)!default;
