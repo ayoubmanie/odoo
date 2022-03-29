@@ -115,10 +115,6 @@ body{
 .o_menu_item{
     a{
         color: black;
-
-        .dropdown-toggle{
-
-        }
     }
 }
 .breadcrumb{
@@ -172,10 +168,6 @@ body{
 .o_onboarding .o_onboarding_step .o_onboarding_progress{
     height: 2px;
     top: 9px;
-}
-
-.o_badge_cell{
-    // text-align: center;
 }
 
 .o_searchview .o_searchview_input_container .o_searchview_facet .o_searchview_facet_label{
@@ -361,9 +353,9 @@ $icons: (
 }
 
 a{
-    color:#151790;
+    color:#313267;
     &:hover{
-        color: #313267;
+        color: #2f31b6;
     }
 }
 
