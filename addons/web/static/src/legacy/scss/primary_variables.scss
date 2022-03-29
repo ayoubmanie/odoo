@@ -33,14 +33,14 @@ $o-gray-900: #212529 !default;
 $o-success: #00A400 !default;
 $o-info: #17a2b8 !default;
 $o-warning: #ffac00 !default;
-$o-danger: #dc3545 !default;
+$o-danger: #d32f2f !default;
 
 // Fine-tune contextual text colors.
 $o-theme-text-colors: (
     "success": #00A400,
     "info": #313268,
     "warning": #9a6b01,
-    "danger": #e3006d,
+    "danger": #d32f2f,
 )!default;
 
 $o-main-text-color: $o-gray-700 !default;

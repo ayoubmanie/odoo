@@ -66,9 +66,13 @@ body{
 }
 
 .btn{
-    border-radius: 0px;
+    border-radius: 2px;
     font-weight: bold;
     text-transform: uppercase;
+    letter-spacing: .03em;
+    // display: flex;
+    // align-items: center;
+    // gap: 3px;
     &:before{
         font-weight: 100;
     }
@@ -109,6 +113,10 @@ body{
 .o_menu_item{
     a{
         color: black;
+
+        .dropdown-toggle{
+
+        }
     }
 }
 .breadcrumb{
@@ -192,7 +200,10 @@ body{
                 font-size: 1.5rem;
             }
         }
-        .o_data_cell{
+        .o_data_cell,
+        .badge-pill,
+        .o_ChatterTopbar_button,
+        .btn-link{
             .fa-#{$name}{
                 &:before{
                     font-size: revert;
@@ -210,6 +221,7 @@ $icons: (
     "video-camera": "\e04b",
     "user-plus": "\e7fe",
     "users": "\e7fb",
+    "user": "\e7fd",
     "comments": "\e0bf",
     "clock-o": "\e8b5",
     "cog": "\e8b8",
@@ -227,11 +239,19 @@ $icons: (
     "volume-up": "\e050",
     "table": "\e265",
     "bar-chart": "\e26b",
+    "bar-chart-o": "\e26b",
+    "area-chart": "\e6e1",
+    "pie-chart": "\e6c4",
+    "database": "\e1db",
+    
     "list-ul": "\e241",
     "th-large": "\e9b0",
     "search": "\e8b6",
     "ellipsis-v": "\e5d4",
-    "download": "\e2c4"
+    "download": "\e2c4",
+    "external-link": "\e89e",
+    "pencil-square-o": "\e3c9",
+    "save": "\e161",
 );
 
 @include fontAwesome-to-googleIcons($icons);
@@ -279,3 +299,73 @@ $icons: (
     box-shadow: 0 0 2px 0 #00000045;
 }
 
+
+
+.o_main_navbar .dropdown-toggle{
+    border-radius: 4px 4px 0px 0px;
+}
+
+
+// .o_main_navbar > :first-child{
+//     margin-right:16px;
+// }
+
+.o_input{
+    border : 1px solid grey;
+}
+.o_required_modifier.o_input, .o_required_modifier .o_input{
+    background-color: #f2f2f2 !important;
+}
+
+.modal-content{
+    box-shadow: 0px 11px 15px -7px #00000033, 0px 24px 38px 3px #00000024, 0px 9px 46px 8px #0000001f !important;
+    border-radius: 4px !important;
+    border: none !important;
+}
+
+.o_form_view .o_form_sheet_bg{
+    background: #f8f8f8;
+}
+
+.o_form_sheet{
+    border-radius: 4px !important;
+    border: none !important;
+}
+
+
+.o_field_number {
+    line-height: revert;
+    padding: 2px 4px !important;
+}
+
+.o_list_view tbody > tr.o_group_header{
+    background: white !important;
+    &:hover{
+        background: #f1f1f1 !important;
+    }
+}
+
+
+.o_mail_systray_item .o_notification_counter{
+    margin-bottom: 0px;
+    padding: 2px 5px;
+}
+
+.o_MessagingMenu_counter{
+    padding: 2px 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+a{
+    color:#151790;
+}
+
+
+.o_main_navbar .o_menu_brand {
+    padding-left: 16px;
+}
+
+.o_kanban_muted_record {
+    border-radius: 2px;
+}
