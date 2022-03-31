@@ -83,6 +83,13 @@ body{
     padding-bottom: 16px;
 }
 
+.datepicker,
+.o_purchase_dashboard {
+    .table-sm th, .table-sm td {
+        padding: 0.3rem;
+    }
+}
+
 
 //search input
 .o_searchview .o_searchview_icon{
@@ -204,6 +211,14 @@ body{
                 }
             }
         }
+
+        .o_field_widget.o_field_many2manytags .o_tag_color_0{
+            .fa-#{$name}{
+                &:before{
+                    font-size: 1.1rem;
+                }
+            }
+        }
     }
 }
 
@@ -273,7 +288,6 @@ $icons: (
     border: none;
     box-shadow: 0px 2px 1px -1px #00000000, 0px 1px 1px 0px #00000012, 0px 1px 3px 0px #00000017;
     border-radius: 2px;
-    overflow: hidden;
 }
 .o_kanban_group{
     display: flex;
@@ -290,7 +304,8 @@ $icons: (
 }
 
 .o_kanban_view .o_kanban_record.o_kanban_record_has_image_fill .o_kanban_image_fill_left{
-    box-shadow: 0 0 2px 0 #00000045;
+    border-right: 0.5px solid #e3e3e3;
+    border-radius: 2px 0px 0px 2px;
 }
 
 
@@ -303,12 +318,44 @@ $icons: (
 // .o_main_navbar > :first-child{
 //     margin-right:16px;
 // }
+.o_dropdown_button,
+.o_datepicker_button{
+    display: flex;
+    right: 14px !important;
+    &:after{
+        margin: auto;
+    }
+}
 
 .o_input{
-    border : 1px solid grey;
+    padding: 9px 14px;
+    border: none;
+    background-color: #f0f0f0 !important;
 }
+.o_input .o_input{
+    padding: 0!important;
+}
+.o_input{
+    .o_dropdown_button, .o_datepicker_button{
+        right: 0px !important;
+    }
+}
+
+.o_field_widget.o_field_many2manytags .o_tag_color_0{
+    box-shadow: none;
+    border: 1px solid #00000024;
+}
+.o_field_number,
+select.o_field_widget.o_input{
+    line-height: revert;
+    padding: 12px 14px !important;
+}
+
+
+
+
 .o_required_modifier.o_input, .o_required_modifier .o_input{
-    background-color: #f2f2f2 !important;
+    background-color: #f0f0f0 !important;
 }
 
 .modal-content{
@@ -327,10 +374,7 @@ $icons: (
 }
 
 
-.o_field_number {
-    line-height: revert;
-    padding: 2px 4px !important;
-}
+
 
 .o_list_view tbody > tr.o_group_header{
     background: white !important;
@@ -402,5 +446,21 @@ a{
         .o_button_icon {
             color: #303167 !important;
         }
+    }
+}
+
+
+.o_menu_brand{
+    font-weight: bold !important;
+    color: #3b3b3b !important;
+    &:hover{
+        color: black;
+    }
+}
+
+
+.o_kanban_card_content{
+    img{
+        border-radius: 2px;
     }
 }

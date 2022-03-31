@@ -1,44 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="120" height="140" viewBox="0 0 120 140">
-    <defs>
-        <linearGradient id="empty_state_file_happy-c" x1="91.284%" x2="25.707%" y1="100%" y2="0%">
-            <stop offset="0%" stop-color="#875A7B"/>
-            <stop offset="100%" stop-color="#6B4862"/>
-        </linearGradient>
-        <circle id="empty_state_file_happy-b" cx="56" cy="76.614" r="56"/>
-        <filter id="empty_state_file_happy-a" width="112.5%" height="112.5%" x="-6.2%" y="-4.5%" filterUnits="objectBoundingBox">
-            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
-            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
-            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.106063179 0"/>
-        </filter>
-        <path id="empty_state_file_happy-d" d="M56,122.807018 C86.927946,122.807018 112,97.6721263 112,66.6666667 C112,59.6606665 112,37.4384443 112,0 L0,0 C0,23.774138 0,45.9963602 0,66.6666667 C0,97.6721263 25.072054,122.807018 56,122.807018 Z"/>
-        <path id="empty_state_file_happy-f" d="M22,6.01503759 L84.3146067,6.01503759 L100.5,22.556391 L100.5,114.829574 L100.5,114.829574 C100.5,124.218415 92.8888407,131.829574 83.5,131.829574 L31,131.829574 L31,131.829574 C21.6111593,131.829574 14,124.218415 14,114.829574 L14,14.0150376 L14,14.0150376 C14,9.5967596 17.581722,6.01503759 22,6.01503759 Z"/>
-    </defs>
-    <g fill="none" fill-rule="evenodd" transform="translate(4 2)">
-        <use fill="#000" filter="url(#empty_state_file_happy-a)" xlink:href="#empty_state_file_happy-b"/>
-        <use fill="url(#empty_state_file_happy-c)" xlink:href="#empty_state_file_happy-b"/>
-        <g transform="translate(0 10)">
-            <mask id="empty_state_file_happy-e" fill="#fff">
-                <use xlink:href="#empty_state_file_happy-d"/>
-            </mask>
-            <g mask="url(#empty_state_file_happy-e)">
-                <use fill="#FFF" xlink:href="#empty_state_file_happy-f"/>
-                <path stroke="#A1ACBA" stroke-width="2" d="M99.5,22.9642476 L83.8940075,7.01503759 L22,7.01503759 C18.1340068,7.01503759 15,10.1490443 15,14.0150376 L15,114.829574 C15,123.66613 22.163444,130.829574 31,130.829574 L83.5,130.829574 C92.336556,130.829574 99.5,123.66613 99.5,114.829574 L99.5,22.9642476 Z"/>
-            </g>
-            <path stroke="#A1ACBA" stroke-width="2" d="M84.8002454,27.5045043 C87.4060329,25.0223449 91.4154529,21.2660453 91.7879265,20.6269769 C92.0921888,20.1049414 92.2011803,19.5697888 92.2011803,18.5540391 C92.2011803,17.9213416 92.0599129,17.3140076 91.7659798,16.6778758 C91.2745815,15.6143886 90.3683274,14.4694369 88.765383,12.8381982 C88.2386259,12.302143 86.3189539,10.4445628 84.8002454,8.96835098 L84.8002454,27.5045043 Z" mask="url(#empty_state_file_happy-e)" transform="rotate(135 88.5 18.226)"/>
-            <g fill="#000" mask="url(#empty_state_file_happy-e)" opacity=".07">
-                <g transform="translate(23 81)">
-                    <rect width="46.716" height="6.214"/>
-                    <rect width="68.812" height="6.214" y="8.7"/>
-                    <rect width="42.297" height="6.214" y="20.506"/>
-                    <rect width="52.398" height="6.214" y="31.07"/>
-                </g>
-            </g>
-        </g>
-        <path stroke="#A1ACBA" stroke-linecap="round" stroke-width="2" d="M13 14L4 5M18 9L18 0M1 20L10 20"/>
-        <g transform="translate(28.491 43.21)">
-            <path stroke="#A1ACBA" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.5087719,17.7894737 C28.0087719,26.7894737 44.5087719,17.7894737 44.5087719,17.7894737"/>
-            <circle cx="48.009" cy="5.289" r="3.5" fill="#A1ACBA"/>
-            <circle cx="8.009" cy="5.289" r="3.5" fill="#A1ACBA"/>
-        </g>
-    </g>
+<svg width="120" height="140" viewBox="0 0 120 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_68_2)">
+<g filter="url(#filter0_d_68_2)">
+<path d="M60 134.614C90.9279 134.614 116 109.542 116 78.614C116 47.6861 90.9279 22.614 60 22.614C29.0721 22.614 4 47.6861 4 78.614C4 109.542 29.0721 134.614 60 134.614Z" fill="black"/>
+</g>
+<path d="M60 134.614C90.9279 134.614 116 109.542 116 78.614C116 47.6861 90.9279 22.614 60 22.614C29.0721 22.614 4 47.6861 4 78.614C4 109.542 29.0721 134.614 60 134.614Z" fill="url(#paint0_linear_68_2)"/>
+<mask id="mask0_68_2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="12" width="112" height="123">
+<path d="M60 134.807C90.9279 134.807 116 109.672 116 78.6667C116 71.6607 116 49.4384 116 12H4C4 35.7741 4 57.9964 4 78.6667C4 109.672 29.0721 134.807 60 134.807Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_68_2)">
+<path d="M26 18.015H88.3146L104.5 34.5564V126.83C104.5 136.218 96.8888 143.83 87.5 143.83H35C25.6112 143.83 18 136.218 18 126.83V26.015C18 21.5968 21.5817 18.015 26 18.015Z" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M103.5 34.9643L87.894 19.015H26C22.134 19.015 19 22.1491 19 26.015V126.83C19 135.666 26.1634 142.83 35 142.83H87.5C96.3366 142.83 103.5 135.666 103.5 126.83V34.9643Z" stroke="#A1ACBA" stroke-width="2"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M88.5552 21.049C88.4678 24.6467 88.2888 30.1379 88.4773 30.8531C88.6313 31.4374 88.9327 31.8929 89.6509 32.6112C90.0983 33.0585 90.6276 33.3881 91.2853 33.6301C92.3848 34.0346 93.8352 34.2034 96.1221 34.2234C96.8736 34.23 99.5445 34.1861 101.662 34.156L88.5552 21.049Z" stroke="#A1ACBA" stroke-width="2"/>
+<g opacity="0.07">
+<g opacity="0.07">
+<path opacity="0.07" d="M73.716 93H27V99.214H73.716V93Z" fill="black"/>
+<path opacity="0.07" d="M95.812 101.7H27V107.914H95.812V101.7Z" fill="black"/>
+<path opacity="0.07" d="M69.297 113.506H27V119.72H69.297V113.506Z" fill="black"/>
+<path opacity="0.07" d="M79.398 124.07H27V130.284H79.398V124.07Z" fill="black"/>
+</g>
+</g>
+</g>
+<path d="M5 22H14M17 16L8 7L17 16ZM22 11V2V11Z" stroke="#A1ACBA" stroke-width="2" stroke-linecap="round"/>
+<path d="M43.9998 62.9995C60.4998 71.9995 76.9998 62.9995 76.9998 62.9995" stroke="#A1ACBA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M80.5 53.999C82.433 53.999 84 52.432 84 50.499C84 48.566 82.433 46.999 80.5 46.999C78.567 46.999 77 48.566 77 50.499C77 52.432 78.567 53.999 80.5 53.999Z" fill="#A1ACBA"/>
+<path d="M40.5 53.999C42.433 53.999 44 52.432 44 50.499C44 48.566 42.433 46.999 40.5 46.999C38.567 46.999 37 48.566 37 50.499C37 52.432 38.567 53.999 40.5 53.999Z" fill="#A1ACBA"/>
+</g>
+<defs>
+<filter id="filter0_d_68_2" x="0" y="20.614" width="120" height="120" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="2"/>
+<feGaussianBlur stdDeviation="2"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.106063 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_68_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_68_2" result="shape"/>
+</filter>
+<linearGradient id="paint0_linear_68_2" x1="106.238" y1="134.614" x2="32.7918" y2="22.614" gradientUnits="userSpaceOnUse">
+<stop stop-color="#7BAFFF"/>
+<stop offset="1" stop-color="#303167"/>
+</linearGradient>
+<clipPath id="clip0_68_2">
+<rect width="120" height="140" fill="white"/>
+</clipPath>
+</defs>
 </svg>
